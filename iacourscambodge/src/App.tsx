@@ -287,10 +287,16 @@ function App() {
               </div>
 
               {activeFlashcard && (
-                <article className="flashcard">
+                <button
+                  type="button"
+                  className="flashcard flashcard-button"
+                  onClick={() =>
+                    setIsFlashcardAnswerVisible((isVisible) => !isVisible)
+                  }
+                >
                   <div className="flashcard-topline">
                     <span>
-                      Card {flashcardIndex + 1} / {flashcards.length}
+                      Card {safeFlashcardIndex + 1} / {flashcards.length}
                     </span>
                     <span>{activeFlashcard.chapterId}</span>
                   </div>
@@ -298,7 +304,7 @@ function App() {
                   <p className={isFlashcardAnswerVisible ? 'answer is-visible' : 'answer'}>
                     {isFlashcardAnswerVisible
                       ? activeFlashcard.answer
-                      : 'Reveal the answer when you are ready.'}
+                      : 'Click the card to reveal the answer.'}
                   </p>
                   {activeFlashcard.tags && (
                     <div className="tag-row">
@@ -307,27 +313,21 @@ function App() {
                       ))}
                     </div>
                   )}
-                  <div className="action-row">
-                    <button type="button" onClick={handlePreviousFlashcard}>
-                      Previous
-                    </button>
-                    <button
-                      type="button"
-                      className="accent-button"
-                      onClick={() =>
-                        setIsFlashcardAnswerVisible((isVisible) => !isVisible)
-                      }
-                    >
-                      {isFlashcardAnswerVisible ? 'Hide answer' : 'Reveal answer'}
-                    </button>
-                    <button type="button" onClick={handleNextFlashcard}>
-                      Next
-                    </button>
-                    <button type="button" onClick={handleShuffleFlashcard}>
-                      Shuffle
-                    </button>
-                  </div>
-                </article>
+                </button>
+              )}
+
+              {activeFlashcard && (
+                <div className="action-row">
+                  <button type="button" onClick={handlePreviousFlashcard}>
+                    Previous
+                  </button>
+                  <button type="button" onClick={handleNextFlashcard}>
+                    Next
+                  </button>
+                  <button type="button" onClick={handleShuffleFlashcard}>
+                    Shuffle
+                  </button>
+                </div>
               )}
             </div>
           )}

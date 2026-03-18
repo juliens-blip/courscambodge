@@ -231,6 +231,18 @@
     var(--paper);
 }
 
+.flashcard-button {
+  width: 100%;
+  text-align: left;
+  cursor: pointer;
+}
+
+.flashcard-button:hover,
+.flashcard-button:focus-visible {
+  border-color: var(--accent);
+  transform: translateY(-1px);
+}
+
 .flashcard-topline,
 .quiz-toolbar,
 .action-row {
