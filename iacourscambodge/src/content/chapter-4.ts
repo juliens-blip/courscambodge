@@ -9,7 +9,17 @@ export const chapter4 = {
   providedByUser: true,
   rawFiche: [
     {
-      heading: 'Polanyi and the plurality of economic forms',
+      heading: '1. Why resources and partnerships matter in SSE',
+      paragraphs: [
+        'SSE organizations need resources to operate, but unlike capitalist firms their resources are diverse, hybrid, and often dependent on partners.',
+      ],
+      bullets: [
+        'Resources influence activities, autonomy, governance, and mission.',
+        'The diversity of resources is linked to the importance of partners.',
+      ],
+    },
+    {
+      heading: '2. Polanyi and the plurality of economic forms',
       paragraphs: [
         'Polanyi argues that real-world economies combine several forms: market exchange, reciprocity, redistribution, and householding.',
       ],
@@ -18,22 +28,43 @@ export const chapter4 = {
         'Reciprocity is reciprocal support between persons or groups.',
         'Redistribution centralizes resources and then re-injects them.',
         'Householding refers to managing households and community sharing.',
+        'Key conclusion: market exchange dominates in contemporary societies, but it should not exclude the other forms.',
+        'Real economies combine these forms; market alone is insufficient.',
       ],
     },
     {
-      heading: 'Resource hybridization',
+      heading: '3. Resource hybridization',
       paragraphs: [
-        'SSE organizations usually combine several resource types, which means their project and their resources influence each other.',
+        'SSE organizations usually combine several resource types. This is called resource hybridization.',
       ],
       bullets: [
         'Market resources',
         'Redistributive resources',
         'Resources from reciprocity or gifts',
         'Member contributions such as fees or shares',
+        'The project shapes the resources sought, and the available resources shape the project.',
       ],
     },
     {
-      heading: 'Partnerships',
+      heading: '4. Resource dependency and mission',
+      bullets: [
+        'Resource dependency can bring stable funding but also loss of autonomy.',
+        'Resources influence organizational behavior.',
+        'Market funding can impose efficiency pressure.',
+        'Public funding can impose administrative or political constraints.',
+      ],
+    },
+    {
+      heading: '5. Market versus social mission',
+      bullets: [
+        'Mission drift: social mission becomes secondary.',
+        'Trade-off: conflict between profit and social objective.',
+        'Institutional isomorphism: SSE organizations become more similar to capitalist firms.',
+        'Examples in the notes: microfinance focused on profit, WISE keeping productive workers, NGOs hiring profit-oriented managers.',
+      ],
+    },
+    {
+      heading: '6. Partnerships',
       bullets: [
         'Partnerships bring funds, skills, visibility, supply chains, and technical support.',
         'Partners can be other SSE organizations, private companies, governments, or international organizations.',
@@ -41,7 +72,7 @@ export const chapter4 = {
       ],
     },
     {
-      heading: 'Governance',
+      heading: '7. Governance',
       paragraphs: [
         'Democratic governance in SSE means one person, one vote at the general assembly and a bottom-up decision process.',
       ],
@@ -49,12 +80,15 @@ export const chapter4 = {
         'Governance can be weakened by once-a-year democracy.',
         'Large organizations can create distance between boards and members.',
         'A self-reproducing elite and autocracy are key risks.',
+        'Democratic governance is a core SSE principle but difficult to maintain in practice.',
       ],
     },
     {
-      heading: 'Key tension',
-      paragraphs: [
-        'The chapter shows a double relationship between resources and projects: resources shape the project, and the project also shapes the kinds of resources the organization can attract.',
+      heading: '8. Key comparison with capitalist firms',
+      bullets: [
+        'SSE: social mission, democratic governance, hybrid resources, strong partnership logic.',
+        'Capitalist firms: profit mission, power based on capital ownership, primarily market resources.',
+        'Main exam risk in SSE: mission drift and loss of autonomy.',
       ],
     },
   ],

@@ -9,56 +9,76 @@ export const chapter5 = {
   providedByUser: true,
   rawFiche: [
     {
-      heading: 'Why SSE exists',
+      heading: '1. Central question of the chapter',
       paragraphs: [
-        'A major explanation for SSE is that it corrects failures and problems that market or state institutions do not solve well enough.',
+        'Why does Social and Solidarity Economy exist and develop?',
       ],
       bullets: [
-        'SSE can be seen as a third sector, especially through associations and foundations.',
-        'Theories from the 1960s onward explain why this sector exists.',
+        'SSE corrects failures.',
+        'SSE empowers people.',
+        'SSE creates social innovation.',
+        'These are the three core functions of SSE in this chapter.',
       ],
     },
     {
-      heading: 'Failure theories',
+      heading: '2. SSE as failure correction',
+      paragraphs: [
+        'One negative standpoint presents SSE as a response to defaults, failures, and problems that state or market institutions do not solve well enough.',
+      ],
       bullets: [
-        'State failure: the state does not satisfy some important social needs.',
-        'Market failure: not-for-profit organizations may be more reliable when quality matters most.',
-        'Transaction costs: SSE organizations can reduce costs of negotiation, information, and control.',
-        'Voluntary sector failure: reliance on volunteering can create limits that require professionalization or public support.',
+        'SSE can be seen as a Third Sector between state and market, especially through associations and foundations.',
+        'State failure theory: the government does not satisfy important social needs.',
+        'Market failure theory: not-for-profit services can be more reliable when quality matters.',
+        'Transaction cost theory: SSE can reduce information, negotiation, and monitoring costs.',
+        'Voluntary sector failure theory: heavy dependence on volunteers creates limits.',
+        'The PDF also mentions member control of activities as a way to regain control over what is provided.',
       ],
     },
     {
-      heading: 'Empowerment',
+      heading: '3. Details of the failure theories',
+      bullets: [
+        'State failure example: education, health, social services in poor areas.',
+        'Market failure example from the course: psychiatric and care services, where for-profit firms can substitute medication for staff.',
+        'Transaction cost examples: foundations as intermediaries; cooperatives strengthening farmers facing dominant buyers.',
+        'Voluntary sector failure examples: community schools and community health centers based on low funding and high volunteering.',
+        'Main conclusion: SSE corrects failures, but SSE itself also has limitations.',
+      ],
+    },
+    {
+      heading: '4. SSE as empowerment',
       paragraphs: [
-        'Empowerment means increasing the capacity of individuals or groups to make choices and transform those choices into desired actions and outcomes.',
+        'The World Bank defines empowerment as the process of increasing the capacity of individuals or groups to make choices and to transform those choices into desired actions and outcomes.',
       ],
       bullets: [
         'Power over: contesting domination and existing norms.',
         'Power with: collective organization and alliances.',
         'Power to: the capacity to act, solve problems, and create.',
         'Power within: self-confidence, self-esteem, and recognition of rights.',
+        'The concept is very close to Amartya Sen\'s capability approach.',
       ],
     },
     {
-      heading: 'Models of empowerment',
+      heading: '5. Models of empowerment',
       bullets: [
         'Radical model: collective liberation and social transformation.',
         'Social-liberal model: support and opportunity with more individual responsibility.',
         'Neoliberal model: entrepreneurship, financial literacy, and self-responsibility.',
+        'Key exam issue: these models do not have the same political meaning.',
       ],
     },
     {
-      heading: 'Social innovation',
+      heading: '6. Social innovation',
       paragraphs: [
         'Social innovation answers social needs and society aspirations through initiatives embedded in territories and involving multiple stakeholders.',
       ],
       bullets: [
         'It can be fed by innovation in work organization, technology, law, or rules.',
         'Its key components are grassroots answers, local anchoring, partnerships, new rules, and dissent from the mainstream way of doing things.',
+        'Social innovation is therefore both problem-solving and social transformation.',
       ],
     },
     {
-      heading: 'Course examples',
+      heading: '7. Course examples and final summary',
       bullets: [
         'Microcredit',
         'Trade unions',
@@ -66,6 +86,7 @@ export const chapter5 = {
         'Self-help groups',
         'Banco Palmas',
         'Mastercard Foundation',
+        'Final summary: SSE exists to correct failures, empower people, and create new social solutions.',
       ],
     },
   ],

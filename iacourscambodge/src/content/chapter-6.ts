@@ -9,7 +9,17 @@ export const chapter6 = {
   providedByUser: true,
   rawFiche: [
     {
-      heading: 'Social utility',
+      heading: '1. Central question of the chapter',
+      paragraphs: [
+        'Does SSE produce something different from ordinary businesses?',
+      ],
+      bullets: [
+        'Yes: SSE produces social utility and social impact.',
+        'Key distinction: social utility is qualitative, social impact is quantitative and measured.',
+      ],
+    },
+    {
+      heading: '2. Social utility',
       paragraphs: [
         'Social utility is the qualitative contribution of SSE. It shows what SSE changes for members, targeted people, third parties, and society as a whole.',
       ],
@@ -21,7 +31,7 @@ export const chapter6 = {
       ],
     },
     {
-      heading: 'Internal social utility',
+      heading: '3. Internal social utility',
       bullets: [
         'Mutual societies, cooperatives, social enterprises, and some associations often create utility for members or staff.',
         'Democratic governance increases commitment.',
@@ -30,41 +40,46 @@ export const chapter6 = {
       ],
     },
     {
-      heading: 'Utility for targeted people',
+      heading: '4. Utility for targeted people',
       paragraphs: [
         'SSE can improve the position of targeted groups through legal support, health care, literacy, microcredit, vocational training, and entrepreneurship training.',
       ],
       bullets: [
+        'Target groups include poor people, disabled people, unemployed people, women, children, elderly people, and sick people.',
         'Rawls: inequalities are acceptable if the poorest improve.',
-        'Sen: poverty is a deprivation of capabilities.',
+        'Sen: poverty is a deprivation of capabilities, so SSE improves capabilities and empowerment.',
       ],
     },
     {
-      heading: 'Externalities and society-level utility',
+      heading: '5. Externalities and society-level utility',
       bullets: [
+        'Externality means a benefit or a cost that reaches third parties not directly involved.',
         'Positive externalities are important social benefits that reach third parties.',
         'SSE can reduce future public costs by improving health, education, or inclusion.',
-        'SSE can also strengthen social cohesion, local development, and democratic habits.',
+        'Two major types mentioned in the notes: financial and well-being externalities, and local development externalities.',
+        'SSE can also strengthen social cohesion, local development, democratic participation, and human development.',
       ],
     },
     {
-      heading: 'Social impact',
+      heading: '6. Social impact',
       paragraphs: [
         'Social impact is the sum of the consequences of an organization on stakeholders and society, but unlike social utility it requires measurement.',
       ],
       bullets: [
-        'Output is the direct measurable product of the activity.',
-        'Outcome is the change produced for stakeholders.',
-        'Impact is the part of the outcome attributable to the organization.',
-        'Deadweight is what would have happened anyway.',
+        'Input: resources used.',
+        'Output: immediate measurable result of the activity.',
+        'Outcome: change produced for stakeholders.',
+        'Deadweight: what would have happened anyway.',
+        'Impact: the part of the outcome attributable to the organization.',
       ],
     },
     {
-      heading: 'Measuring impact',
+      heading: '7. Measuring impact and limits',
       bullets: [
         'Cost-benefit analysis compares costs and benefits.',
         'Social return on investment expresses social return in money terms.',
         'Measurement is difficult because counterfactuals are complex and evaluation can be costly or contested.',
+        'Typical problems: complexity, cost, and contestation of monetary valuation.',
         'Funders increasingly ask for impact evaluation, especially in impact investing and venture philanthropy.',
       ],
     },
@@ -201,4 +216,3 @@ export const chapter6 = {
     },
   ],
 } satisfies CourseChapter
-

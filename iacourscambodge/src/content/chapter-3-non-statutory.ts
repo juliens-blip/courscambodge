@@ -5,54 +5,66 @@ export const chapter3NonStatutory = {
   slug: 'non-statutory-sse',
   title: 'Chapter 3 - Non-Statutory SSE',
   subtitle: 'Social enterprises, social business, and popular economy.',
-  sourceFiles: ['User-provided notes in chat'],
+  sourceFiles: ['User-provided notes in chat', 'C3 Non statutory SSE.pdf not available locally'],
   providedByUser: true,
   rawFiche: [
     {
-      heading: 'Scope',
+      heading: '1. Introduction: What is Non-Statutory SSE?',
       paragraphs: [
-        'Non-statutory SSE refers to organizations that do not rely on the classic statutory forms of cooperatives, mutuals, associations, and foundations.',
+        'Non-Statutory SSE refers to SSE organizations that do not use the traditional legal statutes of cooperatives, mutual societies, associations, and foundations.',
       ],
       bullets: [
-        'The main forms are social enterprises, social business, and the popular economy.',
-        'The chapter shows that SSE keeps evolving and is not limited to old legal forms.',
+        'Main forms: social enterprises, social business, popular economy.',
+        'Key exam issue: the limits of SSE evolve over time, so SSE is not fixed.',
+        'This chapter in the app is based on your detailed notes because the corresponding PDF was not present in `/home/julien/coursse` during extraction.',
       ],
     },
     {
-      heading: 'Social enterprises',
+      heading: '2. Social enterprises',
       paragraphs: [
         'Social enterprises are private SMEs with a social mission first and profit second.',
       ],
       bullets: [
-        'They sell goods or services in the market.',
-        'Profit is usually reinvested rather than maximized for shareholders.',
-        'They combine an economic activity with a social objective.',
+        'They sell goods or services and operate in the market.',
+        'Profit is secondary and usually reinvested.',
+        'They combine market logic and social mission, which creates tensions.',
+        'Historical origin: United States, 1980s, after reduction of public subsidies under Reagan.',
+        'Three visions from Defourny and Nyssens: market resource school, social innovation school, hybrid model.',
+        'Key Cambodia examples: Digital Divide Data and AMRU Rice.',
+        'Digital Divide Data supports disadvantaged people such as disabled persons, landmine victims, and women through wages, healthcare, education, and career development.',
+        'AMRU Rice combines export activity, support to farmers, organic farming, and biodiversity protection.',
+        'Main worldwide types: trading non-profit organizations, WISE, social cooperatives, partnerships social enterprises, community development enterprises.',
       ],
     },
     {
-      heading: 'Social business',
+      heading: '3. Social business',
       paragraphs: [
         'Social business is a special type of social enterprise associated with Muhammad Yunus and the bottom-of-the-pyramid approach.',
       ],
       bullets: [
-        'It aims to improve living standards and economic inclusion.',
-        'The company is non-loss and non-dividend, or owned by poor people.',
-        'Examples from the notes include Danone Grameen, 1001 Fontaines, and Grameen Bank.',
+        'The objective is to improve living standards, access to basic goods, and economic inclusion for poor populations.',
+        'Two types: non-loss non-dividend company, or profit company owned by poor people.',
+        'Examples: Danone Grameen, 1001 Fontaines, Grameen Bank.',
+        '1001 Fontaines responds to lack of access to clean water through village water purification businesses.',
+        'Results in your notes: 342 water kiosks, 1200 jobs, more than 1 million consumers, price around 0.01 dollar per liter.',
+        'Key exam risks: financial dependence, trade-off between social and profit goals, mission drift.',
       ],
     },
     {
-      heading: 'Popular economy',
+      heading: '4. Popular economy',
       paragraphs: [
         'Popular economy is rooted in grassroots economic activity created by people and for people.',
       ],
       bullets: [
         'It is based on labor rather than capital.',
+        'It is based on solidarity, cooperation, and community rather than competition.',
         'It is local, informal, community-based, and focused on survival rather than profit.',
         'Examples include tontines, recovered companies, recycling workers, and community projects.',
+        'Key exam issue: popular economy is often seen as a foundation of SSE and can later become more formalized.',
       ],
     },
     {
-      heading: 'Cambodia and real examples',
+      heading: '5. Cambodia and real examples',
       bullets: [
         'Digital Divide Data',
         'AMRU Rice',
@@ -64,9 +76,12 @@ export const chapter3NonStatutory = {
       ],
     },
     {
-      heading: 'Key exam idea',
-      paragraphs: [
-        'Non-statutory SSE combines market activity with social mission, but the balance between social purpose and economic sustainability creates tensions and trade-offs.',
+      heading: '6. Key exam ideas',
+      bullets: [
+        'Non-Statutory SSE includes social enterprises, social business, and popular economy.',
+        'These forms combine market activity and social mission.',
+        'A core tension runs through the chapter: economic sustainability can conflict with social purpose.',
+        'Mission drift is one of the main risks to remember.',
       ],
     },
   ],
@@ -185,4 +200,3 @@ export const chapter3NonStatutory = {
     },
   ],
 } satisfies CourseChapter
-

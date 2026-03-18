@@ -9,54 +9,91 @@ export const chapter1 = {
   providedByUser: true,
   rawFiche: [
     {
-      heading: 'Definition',
+      heading: '1. Definition of Social and Solidarity Economy (SSE)',
       paragraphs: [
-        'SSE is a set of economic activities that contribute to empowering people through solidarity, governance, and profit rules that are different from ordinary business.',
-        'Economic activities can include producing, exchanging, renting, funding, giving, and providing services. They are not necessarily limited to market prices.',
+        'Social and Solidarity Economy refers to economic activities that pursue both economic and social objectives and empower people.',
+        'It includes producing goods, providing services, financing, exchanging, renting, funding, or giving. These activities may or may not be market-based.',
       ],
       bullets: [
-        'Empowering means creating more power or more capacities for people.',
-        'Solidarity means the activity is not driven only by self-interest, but also by community well-being and altruism.',
-        'Governance is participatory, and often democratic, rather than based only on capital ownership.',
-        'Profit is secondary, if it exists at all, because social missions come first.',
+        'Economic activity: produce, exchange, finance, provide services.',
+        'Solidarity: help people and communities, not only individual self-interest.',
+        'Democratic and participatory governance: decisions are not based only on capital ownership.',
+        'Profit is secondary: the main objective is social mission and community benefit.',
+        'Empowerment: SSE increases people\'s power, autonomy, and capacities.',
       ],
     },
     {
-      heading: 'What SSE is and is not',
+      heading: '2. SSE as another way of doing business',
+      paragraphs: [
+        'A major exam point is that SSE is another kind of entrepreneurship.',
+      ],
       bullets: [
-        'SSE is another kind of entrepreneurship: it can do the same things as ordinary business, but differently.',
-        'It can also do different things, such as care for street children or other social missions.',
-        'SSE is not the same as private profit-oriented firms.',
-        'SSE is also different from public firms and government administration.',
+        'It can do the same things as ordinary businesses, but differently: for example, producing rice through fair trade or organic farming.',
+        'It can also do different activities: for example, caring for street children or addressing exclusion.',
+        'SSE is not private profit-oriented business.',
+        'SSE is not public administration or public firms.',
+        'It is therefore an alternative economic model, not just charity.',
       ],
     },
     {
-      heading: 'Types of organizations',
+      heading: '3. Main types of SSE organizations',
       bullets: [
         'Cooperatives',
-        'Mutual societies',
-        'Civil society organizations such as associations, NGOs, and CBOs',
+        'Mutual societies or mutual organizations',
+        'Associations, NGOs, and civil society organizations',
         'Foundations',
-        'Non-statutory forms such as social enterprises and social business',
+        'Social enterprises and social business',
+        'These organizations are united by social mission, solidarity, and governance rules that differ from capitalist firms.',
       ],
     },
     {
-      heading: 'Who benefits',
-      bullets: [
-        'Mutual-benefit organizations work by and for insiders, especially members.',
-        'Public-benefit organizations serve external stakeholders rather than insiders.',
-        'Some organizations are mixed or hybrid, depending on their mission and resources.',
-      ],
-    },
-    {
-      heading: 'Cambodia and global recognition',
+      heading: '4. Types of beneficiaries',
       paragraphs: [
-        'In Cambodia, SSE appears through community-based organizations, associations, cooperatives, local NGOs, international NGOs, and social enterprises such as Digital Divide Data or Equitable Cambodia.',
-        'Worldwide, SSE has expanded through self-help traditions, industrial-era needs, new social protection systems, and critical visions of the economy.',
+        'The chapter distinguishes between organizations that help members directly and organizations that help external populations.',
       ],
       bullets: [
-        'ILO and the UN now recognize SSE as part of sustainable development.',
-        'The UN Resolution A/77/L.60 in 2023 officially promoted SSE for sustainable development.',
+        'Mutual-benefit organizations: members themselves benefit. Main example: cooperatives.',
+        'Public-benefit organizations: external people benefit. Main examples: NGOs and foundations.',
+        'Public-benefit organizations often help poor people, children, or vulnerable groups.',
+        'This distinction is important when you define who the organization is for.',
+      ],
+    },
+    {
+      heading: '5. SSE in Cambodia',
+      paragraphs: [
+        'The course presents Cambodia as a field where SSE appears through community-based organizations, associations, local NGOs, international NGOs, agricultural cooperatives, and social enterprises.',
+      ],
+      bullets: [
+        'Examples: Digital Divide Data, Equitable Cambodia, Mith Samlanh.',
+        'The notes also mention community-based organizations such as fisheries management groups and professional associations.',
+        'Cambodia is useful in exam answers because it provides concrete local illustrations.',
+      ],
+    },
+    {
+      heading: '6. Historical origins and worldwide importance',
+      bullets: [
+        'Traditional solidarity systems and community self-help.',
+        'Industrial Revolution responses to poverty and social inequality.',
+        'Development of social protection systems such as health protection and pensions.',
+        'In some countries, SSE accounts for around 8% of employment.',
+        'SSE reduces poverty, reduces inequality, creates jobs, and supports sustainable development.',
+      ],
+    },
+    {
+      heading: '7. International recognition',
+      bullets: [
+        'The International Labour Organization recognizes organizations that combine economic goals, social goals, and democratic governance.',
+        'The United Nations officially recognized SSE in 2023 through a resolution promoting SSE for sustainable development.',
+        'SSE is linked to the Sustainable Development Goals.',
+      ],
+    },
+    {
+      heading: '8. Key exam issues to remember',
+      bullets: [
+        'Empowerment is a key word: SSE gives more power and capacities to people.',
+        'Democratic governance is essential: decisions are not based only on money or capital.',
+        'SSE fights global problems such as poverty, inequality, exclusion, and environmental degradation.',
+        'SSE is an alternative to classical capitalism because it promotes social justice, equality, sustainability, and democratic economy.',
       ],
     },
   ],
