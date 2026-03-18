@@ -1,0 +1,4 @@
+interface:
+  display_name: "Revision Doc Writer"
+  short_description: "Maintain revision project docs"
+  default_prompt: "Use $revision-doc-writer to update README, CLAUDE, deployment notes, and content maps for the revision app."

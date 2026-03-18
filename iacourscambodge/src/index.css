@@ -1,0 +1,113 @@
+:root {
+  color: #163239;
+  background:
+    radial-gradient(circle at top left, rgba(194, 86, 47, 0.12), transparent 26%),
+    linear-gradient(180deg, #f7f0e4 0%, #efe5d3 100%);
+  font-family:
+    'Avenir Next',
+    'Segoe UI',
+    sans-serif;
+  line-height: 1.55;
+  font-weight: 400;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  --ink: #163239;
+  --muted: #51656a;
+  --border: rgba(22, 50, 57, 0.12);
+  --surface: rgba(252, 248, 241, 0.88);
+  --surface-strong: #fcf8f1;
+  --paper: rgba(255, 252, 246, 0.92);
+  --accent: #c2562f;
+  --success: #276854;
+  --danger: #b24136;
+  --soft-shadow: 0 24px 60px rgba(22, 50, 57, 0.08);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+}
+
+button,
+select {
+  font: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+button:focus-visible,
+select:focus-visible {
+  outline: 3px solid rgba(194, 86, 47, 0.2);
+  outline-offset: 2px;
+}
+
+#root {
+  width: min(1260px, calc(100% - 2rem));
+  margin: 0 auto;
+  padding: 1.25rem 0 2.5rem;
+}
+
+h1,
+h2,
+h3,
+p,
+ul {
+  margin-top: 0;
+}
+
+h1,
+h2,
+h3 {
+  color: var(--ink);
+  font-family:
+    'Iowan Old Style',
+    'Palatino Linotype',
+    Georgia,
+    serif;
+  line-height: 1.08;
+}
+
+h1 {
+  margin-bottom: 0.9rem;
+  font-size: clamp(2.5rem, 5vw, 4.6rem);
+}
+
+h2 {
+  margin-bottom: 0.5rem;
+  font-size: clamp(1.7rem, 3vw, 2.45rem);
+}
+
+h3 {
+  margin-bottom: 0.65rem;
+  font-size: 1.2rem;
+}
+
+p,
+li,
+span,
+label {
+  color: var(--muted);
+}
+
+strong {
+  color: var(--ink);
+}
+
+@media (max-width: 640px) {
+  #root {
+    width: min(100% - 1rem, 100%);
+    padding-top: 0.5rem;
+  }
+}

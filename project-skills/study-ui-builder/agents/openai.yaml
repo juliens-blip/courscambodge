@@ -1,0 +1,4 @@
+interface:
+  display_name: "Study UI Builder"
+  short_description: "Build revision UI for course apps"
+  default_prompt: "Use $study-ui-builder to shape a React/Vite revision interface with raw notes, flashcards, and quiz flows."

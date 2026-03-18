@@ -1,0 +1,9 @@
+*.log
+.DS_Store
+
+iacourscambodge/node_modules/
+iacourscambodge/dist/
+
+agents_library/
+skills/
+mon-projet/

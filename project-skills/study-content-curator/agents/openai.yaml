@@ -1,0 +1,4 @@
+interface:
+  display_name: "Study Content Curator"
+  short_description: "Turn course notes into study data"
+  default_prompt: "Use $study-content-curator to turn course chapters into raw fiches, flashcards, and quizzes without dropping exam points."
