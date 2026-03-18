@@ -1,0 +1,9 @@
+{
+  "name": "courscambodge-root",
+  "private": true,
+  "scripts": {
+    "build": "npm --prefix iacourscambodge run build",
+    "lint": "npm --prefix iacourscambodge run lint",
+    "vercel-build": "npm --prefix iacourscambodge install && npm --prefix iacourscambodge run build"
+  }
+}

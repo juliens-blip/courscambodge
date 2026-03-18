@@ -46,6 +46,8 @@ The deployable app lives in `iacourscambodge/`. On Vercel, set the project root 
 npm run build
 ```
 
+If the Vercel project is accidentally pointed at the repo root, the root `package.json` and `vercel.json` now redirect the build to `iacourscambodge/` automatically.
+
 ## Notes
 
 - The authoritative course PDFs stay outside the repo at `/home/julien/coursse`.
