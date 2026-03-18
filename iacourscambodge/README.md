@@ -9,7 +9,8 @@ It has three content zones:
 
 ## Source Material
 
-- PDFs and course files live in `/home/julien/coursse`
+- Authoritative PDFs and course files live in `/home/julien/coursse`
+- Deployable PDF copies served by the app live in `public/courses/`
 - Current local project skills live in `/home/julien/Documents/courscambodge/project-skills`
 - Local agent and skill references used during build time can live in `/home/julien/Documents/courscambodge/agents_library` and `/home/julien/Documents/courscambodge/skills`
 
@@ -20,7 +21,7 @@ It has three content zones:
 - `src/index.css`: global tokens, typography, and base styles
 - `src/content/`: typed chapter dataset, raw fiches, flashcards, and quiz prompts
 - `src/assets/`: local images and static assets
-- `public/`: public static files served by Vite
+- `public/`: public static files served by Vite, including `public/courses/` for linked PDFs
 
 ## Commands
 

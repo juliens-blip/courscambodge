@@ -13,6 +13,7 @@ Maintain a small SSE revision app in `iacourscambodge/` with three aligned outpu
 - App root: `iacourscambodge/`
 - Main UI: `iacourscambodge/src/App.tsx`
 - Content dataset: `iacourscambodge/src/content/`
+- Deployable PDF copies: `iacourscambodge/public/courses/`
 - App styles: `iacourscambodge/src/App.css` and `iacourscambodge/src/index.css`
 - Local agent dossiers: `project-agents/`
 - Local project skills: `project-skills/`

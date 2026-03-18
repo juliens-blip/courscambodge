@@ -14,6 +14,7 @@ Use this skill to maintain content quality inside a study product. It keeps raw 
 1. Gather the current source set:
    - raw text notes
    - PDFs
+   - deployable PDF copies when the app should link to them
    - existing flashcards
    - existing quiz questions
 2. Preserve the fiche text in a raw block instead of rewriting it into a different voice.

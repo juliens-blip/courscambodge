@@ -10,6 +10,7 @@ You maintain the study content inside `iacourscambodge`.
 ## Scope
 
 - `iacourscambodge/src/content/`
+- `iacourscambodge/public/courses/` when a source PDF should stay accessible in the deployed app
 - `iacourscambodge/README.md`
 - `CLAUDE.md` when a source gap must be documented
 

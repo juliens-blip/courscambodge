@@ -11,6 +11,14 @@ const viewLabels: Record<View, string> = {
   quiz: 'Quiz',
 }
 
+const getSourceHref = (sourceFile: string) => {
+  if (!sourceFile.endsWith('.pdf')) {
+    return null
+  }
+
+  return `/courses/${encodeURIComponent(sourceFile)}`
+}
+
 function App() {
   const ficheChapters = useMemo(
     () => courseChapters.filter((chapter) => chapter.providedByUser),
@@ -208,9 +216,24 @@ function App() {
                   <p>{activeChapter.subtitle}</p>
                 </div>
                 <div className="source-list">
-                  {activeChapter.sourceFiles.map((sourceFile) => (
-                    <span key={sourceFile}>{sourceFile}</span>
-                  ))}
+                  {activeChapter.sourceFiles.map((sourceFile) => {
+                    const sourceHref = getSourceHref(sourceFile)
+
+                    if (!sourceHref) {
+                      return <span key={sourceFile}>{sourceFile}</span>
+                    }
+
+                    return (
+                      <a
+                        key={sourceFile}
+                        href={sourceHref}
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        {sourceFile}
+                      </a>
+                    )
+                  })}
                 </div>
               </div>
 

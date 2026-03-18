@@ -10,6 +10,7 @@ Workspace for a Vercel-ready revision app built from the Social and Solidarity E
 - `agents_library/`: local agent references used during build time
 - `skills/`: local skills repository used as a structural reference during build time
 - `/home/julien/coursse/`: source PDFs used to cross-check and enrich the study content
+- `iacourscambodge/public/courses/`: deployable PDF copies served by the app
 
 ## App Features
 
@@ -47,5 +48,6 @@ npm run build
 
 ## Notes
 
-- The course PDFs stay outside the repo at `/home/julien/coursse`.
+- The authoritative course PDFs stay outside the repo at `/home/julien/coursse`.
+- The app also ships deployable PDF copies in `iacourscambodge/public/courses/` for the chapters available locally.
 - `agents_library/` and `skills/` were used as local references while building the project and do not need to be deployed with the app.
